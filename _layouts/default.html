@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{site.lang}}">
+
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.2/js/uswds-init.min.js" integrity="sha512-CERRusk3iiaHwELaoxK7Q70UHH6ifSJKSrq3Cfk/TsZooDq7sJYsRCPLdP3YMnTfr3LoeTALPlkpC6g+F6w1Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.2/css/uswds.min.css" integrity="sha512-g4+SYZBxcfquMadzMxmKJiI7vZE69b6jZqZ2KtZQ9qNXVI8WSwFBlHJEL+rlqDhsBgSxuZsVzQ+cY1HMjpqa2g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    {% include basic-header.html %}
+    <main id="main-content">
+      <div class="grid-container usa-prose padding-y-3">
+        {{ content }}
+      </div>
+    </main>
+    {% include footer-identifier.html %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.2/js/uswds.min.js" integrity="sha512-JZPbOlveyjzEUwcAJFmSQdxwz69XMfgQpXT5qqJ3jPwhyJu6FXeEcCzcpHgsV1kuj/5/VHgs1XyAoR3bmirXPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+  
+</html>
