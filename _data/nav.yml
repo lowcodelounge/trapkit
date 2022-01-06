@@ -1,26 +1,20 @@
-- title: Benefits
+- title: Documents
   subnav:
-    - title: Grants
-      url: "https://www.usa.gov/grants"
-    - title: Food
-      url: "https://www.usa.gov/food-help"
-    - title: Affordable Rentals
-      url: "https://www.usa.gov/finding-home"    
-- title: Jobs
+    - title: Declaration of Independence
+      url: "https://www.archives.gov/founding-docs/declaration"
+    - title: Constitution
+      url: "https://www.archives.gov/founding-docs/constitution"
+    - title: Bill of Rights
+      url: "https://www.archives.gov/founding-docs/bill-of-rights"    
+- title: Shop
   subnav:
-    - title: Unemployment Help
-      url: "https://www.usa.gov/unemployment"
-    - title: Retirement
-      url: "https://www.usa.gov/retirement"
-    - title: Small Business
-      url: "https://www.usa.gov/business"
-- title: Money
-  subnav:
-    - title: Taxes
-      url: "https://www.usa.gov/taxes"
-    - title: Currency
-      url: "https://www.usa.gov/currency"
-    - title: Consumer Issues
-      url: "https://www.usa.gov/consumer"
+    - title: Charters of Freedom Book
+      url: "https://www.nationalarchivesstore.org/products/the-charters-of-freedom-book"
+    - title: Historic Facsimiles
+      url: "https://www.nationalarchivesstore.org/collections/documents"
+    - title: Framed Documents
+      url: "https://www.nationalarchivesstore.org/collections/framed-charters-of-freedom"
+- title: Visit
+  url: "https://museum.archives.gov/founding-documents"
 - title: About
-  url: "https://www.usa.gov/about"
+  url: "https://www.archives.gov/faqs"
