@@ -7,13 +7,14 @@ title: Home
 {{ site.description }}
 {: .usa-intro}
 
-This template is set up with USWDS core CSS and JS files from [CDNJS](https://cdnjs.com/libraries/uswds).
+This is an early work in progress. Follow along on [GitHub](https://github.com/pglevy/rwp-toolkit){: .usa-link} or [Twitter](https://twitter.com/pglevy){: .usa-link}.
 
-- Last updated: November 24, 2021
-- Version: 2.12.2
-- More information: [How to use USWDS](https://designsystem.digital.gov/how-to-use-uswds/)
+These are the current templates:
 
-[Use template on GitHub](https://github.com/Bixal/uswds-template){: .usa-button .usa-button--big}
-{: .margin-y-6}
+{% for item in site.pages %}
 
-Or [try it out first on CodePen](https://codepen.io/pglevy/pen/abBgJbe).
+- <{{ site.url }}{{ site.baseurl }}{{ item.url }}>{: .usa-link}
+
+{% endfor %}
+
+See the wiki for more information about the [templates](https://github.com/pglevy/rwp-toolkit/wiki/Templates){: .usa-link} and available [components](https://github.com/pglevy/rwp-toolkit/wiki/Components){: .usa-link}.
