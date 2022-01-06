@@ -1,7 +1,7 @@
 ---
 layout: default
 header: true
-prose: yes
+prose: true
 ---
 # The U.S. Bill of Rights
 
