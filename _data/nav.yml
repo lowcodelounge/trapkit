@@ -1,0 +1,20 @@
+- title: Documents
+  subnav:
+    - title: Declaration of Independence
+      url: "https://www.archives.gov/founding-docs/declaration"
+    - title: Constitution
+      url: "https://www.archives.gov/founding-docs/constitution"
+    - title: Bill of Rights
+      url: "https://www.archives.gov/founding-docs/bill-of-rights"    
+- title: Shop
+  subnav:
+    - title: Charters of Freedom Book
+      url: "https://www.nationalarchivesstore.org/products/the-charters-of-freedom-book"
+    - title: Historic Facsimiles
+      url: "https://www.nationalarchivesstore.org/collections/documents"
+    - title: Framed Documents
+      url: "https://www.nationalarchivesstore.org/collections/framed-charters-of-freedom"
+- title: Visit
+  url: "https://museum.archives.gov/founding-documents"
+- title: About
+  url: "https://www.archives.gov/faqs"
