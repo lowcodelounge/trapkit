@@ -1,8 +1,8 @@
 ---
 layout: default
+header: true
 prose: yes
 ---
-
 # The U.S. Bill of Rights
 
 On September 25, 1789, the First Congress of the United States proposed 12 amendments to the Constitution. The 1789 Joint Resolution of Congress proposing the amendments is on display in the Rotunda in the National Archives Museum. Ten of the proposed 12 amendments were ratified by three-fourths of the state legislatures on December 15, 1791.
