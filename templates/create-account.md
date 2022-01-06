@@ -1,6 +1,7 @@
 ---
 layout: default
-prose: yes
+header: false
+prose: true
 ---
 
 # Create your account
