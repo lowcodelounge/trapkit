@@ -12,7 +12,7 @@
 
   <body>
     <main id="main-content">
-      <div class="grid-container">
+      <div class="grid-container{% if page.prose %} usa-prose{% endif %}">
         {{ content }}
       </div>
     </main>
