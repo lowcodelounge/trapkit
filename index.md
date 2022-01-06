@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+prose: true
 ---
 # {{ site.title }}
 
