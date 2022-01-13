@@ -2,6 +2,8 @@
 layout: default
 header: false
 prose: true
+button-style: usa-button--big bg-primary-vivid hover:bg-primary-darker
+text-input-style: radius-lg padding-3 border-2px border-base
 ---
 
 # Create your account
@@ -17,4 +19,4 @@ prose: true
 After creating your account, you'll receive a message with a link to set up your username and password.
 
 <!-- Include a button component as a call-to-action for completing the form. -->
-{% include button.html label="Create" link="../index.html" style="usa-button--big" new-tab=false %}
+{% include button.html label="Create" link="../index.html" %}
