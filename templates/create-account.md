@@ -14,7 +14,8 @@ text-input-style: radius-lg padding-3 border-2px border-base
 <!-- Include a text input component for email. -->
 {% include text-input.html label="Email" id="email" type="email" %}
 
-[Use phone instead of email](#){: .usa-link}
+<!-- Include an inline link for communication preference. -->
+{% include link.html label="Use phone instead of email" link="#" %}
 
 After creating your account, you'll receive a message with a link to set up your username and password.
 
