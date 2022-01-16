@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: centered-column
 header: false
 prose: true
+container-style: usa-prose width-mobile-lg bg-base-lightest padding-5 radius-lg shadow-3 border-1px border-base-lighter
 button-style: usa-button--big bg-primary-vivid hover:bg-primary-darker
 text-input-style: radius-lg padding-3 border-2px border-base
 ---
