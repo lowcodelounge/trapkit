@@ -9,10 +9,10 @@ text-input-style: radius-lg padding-3 border-2px border-base
 # Create your account
 
 <!-- Include a text input component for name. -->
-{% include text-input.html label="Name" id="name" type="text" %}
+{% include text-input.html label="Full name" type="text" %}
 
 <!-- Include a text input component for email. -->
-{% include text-input.html label="Email" id="email" type="email" %}
+{% include text-input.html label="Email address" type="email" %}
 
 <!-- Include an inline link for communication preference. -->
 {% include link.html label="Use phone instead of email" link="#" %}
