@@ -1,6 +1,6 @@
 # Make rapid web prototypes — responsive as code, easy as paper — and get real feedback real fast.
 
-Use this template to build working prototypes in the browser with the human-friendliest tech stack around: [Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for content, [USWDS](https://designsystem.digital.gov/) for components, and [GitHub Pages](https://pages.github.com/) for hosting. All free and open-source.
+Use the RWP Toolkit template to build working prototypes in the browser with the human-friendliest tech stack around: [Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for content, [USWDS](https://designsystem.digital.gov/) for components, and [GitHub Pages](https://pages.github.com/) for hosting. All free and open-source.
 
 ## 🤩 What people are saying
 

@@ -1,10 +1,10 @@
 <!--
     Documentation: https://github.com/pglevy/rwp-toolkit/wiki/Components#text-input
 -->
-<label class="usa-label {{ include.label-style }}" for="{{ include.id }}">{{ include.label }}</label>
+<label class="usa-label {{ include.label-style }}" for="{{ include.label | slugify }}">{{ include.label }}</label>
 <input
   class="usa-input {{ page.text-input-style }} {{ include.style }}"
-  id="{{ include.id }}"
-  name="{{ include.id }}"
+  id="{{ include.label | slugify }}"
+  name="{{ include.label | slugify }}"
   type="{{ include.type }}"
 />
