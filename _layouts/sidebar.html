@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% capture sidebar %}
+{% if page.sidebar %}
+  {% include {{ page.sidebar }} %}
+{% endif %}
+{% endcapture %}
+
+<div class="grid-row grid-gap">
+    <div class="tablet:grid-col-auto{% if page.prose %} usa-prose{% endif %} margin-bottom-3">{{ sidebar | markdownify }}</div>
+    <div class="tablet:grid-col-fill{% if page.prose %} usa-prose{% endif %}">{{ content }}</div>
+</div>
