@@ -1,0 +1,7 @@
+<script>
+    $('#{{ include.show-this }}').hide();
+    $('#{{ include.click-this }}').on('click', function () {
+        $('#{{ include.show-this }}').show();
+        $('#{{ include.focus-this }}').focus();
+    });
+</script>

@@ -8,6 +8,8 @@ text-input-style: radius-lg padding-3 border-2px border-base
 
 # Create your account
 
+{% include components/alert.html id="warning" %}
+
 <!-- Include a text input component for name. -->
 {% include text-input.html label="Full name" type="text" %}
 
@@ -20,4 +22,10 @@ text-input-style: radius-lg padding-3 border-2px border-base
 After creating your account, you'll receive a message with a link to set up your username and password.
 
 <!-- Include a button component as a call-to-action for completing the form. -->
-{% include button.html label="Create" link="../index.html" %}
+{% include button.html label="Create" link="#" %}
+
+<!-- Include actions here -->
+
+{% include actions/show.html click-this="create" show-this="warning" focus-this="close" %}
+
+{% include actions/hide.html click-this="close" hide-this="warning" %}

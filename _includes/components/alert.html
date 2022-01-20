@@ -1,0 +1,13 @@
+<div class="usa-alert usa-alert--{{ include.type }}" id="{{ include.heading | slugify }}">
+    <div class="usa-alert__body">
+        <a class="text-base-dark" href="javascript:void(0);" id="close">
+            <svg class="usa-icon usa-icon--size-4 float-right" aria-hidden="true" focusable="false" role="img">
+                <use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#close"></use>
+            </svg>
+        </a>
+        <h4 class="usa-alert__heading">{{ include.heading }}</h4>
+        <p class="usa-alert__text">
+            {{ include.text }}
+        </p>
+    </div>
+</div>
