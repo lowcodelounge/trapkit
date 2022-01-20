@@ -1,4 +1,4 @@
 <!--
     Documentation: https://github.com/pglevy/rwp-toolkit/wiki/Components#link
 -->
-<a id="{{ include.label | slugify }}" href="{{ include.link }}" class="usa-link {{ page.link-style }} {{ include.style }}"{% if include.new-tab %} target="_blank"{% endif %}>{{ include.label }}</a>
+<a id="{{ include.label | slugify }}" title="{{ include.tooltip }}" data-position="{{ include.tooltip-position }}" href="{{ include.link }}" class="usa-link {{ page.link-style }} {{ include.style }}"{% if include.new-tab %} target="_blank"{% endif %}>{{ include.label }}</a>
