@@ -3,6 +3,8 @@ layout: sidebar
 header: true
 prose: true
 sidebar: signup.md
+sidebar-reverse: true
+container-style: width-tablet
 ---
 
 # The U.S. Bill of Rights

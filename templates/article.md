@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: centered-column
 header: true
 prose: true
+container-style: width-tablet
 ---
 # The U.S. Bill of Rights
 
