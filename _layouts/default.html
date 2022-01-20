@@ -14,7 +14,7 @@
   <body>
     {% if page.header %}{% include components/basic-header.html %}{% endif %}
     <main id="main-content">
-      <div class="grid-container{% if page.prose %} usa-prose padding-top-4{% endif %}">
+      <div class="{% if page.prose %} usa-prose padding-top-4{% endif %}">
         {{ content }}
       </div>
     </main>
