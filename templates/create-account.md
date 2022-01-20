@@ -26,6 +26,6 @@ After creating your account, you'll receive a message with a link to set up your
 
 <!-- Include actions here -->
 
-{% include actions/show.html click-this="create" show-this="warning" focus-this="dismiss" %}
+{% include actions/show.html click-this="create" show-this="warning" focus-this="close" %}
 
-{% include actions/hide.html click-this="dismiss" hide-this="warning" %}
+{% include actions/hide.html click-this="close" hide-this="warning" %}
