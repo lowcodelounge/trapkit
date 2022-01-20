@@ -17,7 +17,7 @@ text-input-style: radius-lg padding-3 border-2px border-base
 <!-- Include an inline link for communication preference. -->
 {% include components/link.html label="Use phone instead of email" link="#" %}
 
-{% include components/icon.html icon="info" size="4" style="text-info float-left margin-right-1" %}
+{% include components/icon.html icon="info" size="4" style="text-info-dark float-left margin-right-1" %}
 After creating your account, you'll receive a message with a link to set up your username and password.
 
 <!-- Include a button component as a call-to-action for completing the form. -->
