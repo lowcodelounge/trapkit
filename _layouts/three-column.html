@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% capture left-column %}
+{% if page.left-column %}
+{% include {{ page.left-column }} %}
+{% endif %}
+{% endcapture %}
+
+{% capture right-column %}
+{% if page.right-column %}
+{% include {{ page.right-column }} %}
+{% endif %}
+{% endcapture %}
+
+<div class="grid-row grid-gap padding-x-4 {{ page.layout-style }}">
+    <div class="tablet:grid-col-auto{% if page.prose %} usa-prose{% endif %} margin-bottom-3">
+        {{ left-column | markdownify }}</div>
+    <div class="tablet:grid-col-fill{% if page.prose %} usa-prose{% endif %} margin-bottom-3">{{ content }}</div>
+    <div class="tablet:grid-col-auto{% if page.prose %} usa-prose{% endif %} margin-bottom-3">
+        {{ right-column | markdownify }}</div>
+</div>

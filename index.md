@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: grid-container
 title: Home
 prose: true
 ---

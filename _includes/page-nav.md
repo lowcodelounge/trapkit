@@ -1,5 +1,5 @@
 
-About the Bill of Rights:
+## About the Bill of Rights
 
 - [What does it say?](#)
 - [How did it happen?](#)

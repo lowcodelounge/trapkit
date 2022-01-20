@@ -1,9 +1,10 @@
 ---
-layout: sidebar
-header: true
-prose: true
-sidebar: page-nav.md
-sidebar-reverse: true
+layout: three-column
+header: false
+prose: false
+left-column: page-nav.md
+right-column: signup.md
+layout-style: line-height-body-5
 ---
 
 # The U.S. Bill of Rights

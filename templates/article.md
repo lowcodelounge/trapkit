@@ -1,5 +1,5 @@
 ---
-layout: centered-column
+layout: grid-container
 header: true
 prose: true
 container-style: width-tablet

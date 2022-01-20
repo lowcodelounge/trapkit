@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: grid-container
 ---
 
 {% capture sidebar %}
@@ -10,5 +10,5 @@ layout: default
 
 <div class="grid-row grid-gap">
     <div class="tablet:grid-col-auto{% if page.prose %} usa-prose{% endif %}{% if page.sidebar-reverse %} order-last{% endif %} margin-bottom-3">{{ sidebar | markdownify }}</div>
-    <div class="tablet:grid-col-fill{% if page.prose %} usa-prose{% endif %}">{{ content }}</div>
+    <div class="tablet:grid-col-fill{% if page.prose %} usa-prose{% endif %} margin-bottom-3">{{ content }}</div>
 </div>
