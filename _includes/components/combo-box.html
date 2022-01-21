@@ -1,0 +1,10 @@
+<!--
+    Documentation: https://github.com/pglevy/rwp-toolkit/wiki/Components#combo-box
+-->
+<label class="usa-label" for="{{ include.label | slugify }}">{{ include.label }}</label>
+<div class="usa-combo-box {{ page.combo-box-style }} {{ include.style }}">
+  <select class="usa-select" name="{{ include.label | slugify }}" id="{{ include.label | slugify }}">
+    <option value>— Select —</option>
+    {% for item in include.values %}<option value="{{ item.name | slugify }}">{{ item.name }}</option>{% endfor %}
+  </select>
+</div>
