@@ -2,6 +2,7 @@
 layout: centered-column
 header: false
 prose: false
+layout-style: width-mobile-lg
 button-style: bg-primary-vivid hover:bg-primary-darker
 text-input-style: radius-lg border-2px border-base
 ---
