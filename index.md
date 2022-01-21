@@ -1,7 +1,8 @@
 ---
-layout: grid-container
+layout: centered-column
 title: Home
 prose: true
+layout-style: prose width-tablet
 ---
 # {{ site.title }}
 
