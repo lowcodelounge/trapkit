@@ -4,13 +4,13 @@ layout: default
 
 {% capture left-column %}
 {% if page.left-column %}
-{% include {{ page.left-column }} %}
+{% include content/{{ page.left-column }} %}
 {% endif %}
 {% endcapture %}
 
 {% capture right-column %}
 {% if page.right-column %}
-{% include {{ page.right-column }} %}
+{% include content/{{ page.right-column }} %}
 {% endif %}
 {% endcapture %}
 

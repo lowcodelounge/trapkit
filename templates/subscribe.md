@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: centered-column
 header: false
 prose: false
 button-style: bg-primary-vivid hover:bg-primary-darker
