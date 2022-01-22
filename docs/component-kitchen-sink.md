@@ -6,7 +6,7 @@ header: true
 
 # Component kitchen sink
 
-These are all the available components on one page. To include the component on a Markdown content page, copy and paste the line of text. This content file is located here: `docs/component-kitchen-sink.md`.
+These are all the available components on one page. To include the component on a Markdown content page, copy and paste the line of text. This content file is located here: [`docs/component-kitchen-sink.md`](https://github.com/pglevy/rwp-toolkit/blob/main/docs/component-kitchen-sink.md).
 
 ## Button
 
