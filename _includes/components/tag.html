@@ -1,0 +1,5 @@
+<!--
+    Documentation: https://github.com/pglevy/rwp-toolkit/wiki/Components#tag
+-->
+{% assign labels = include.labels | split: "," %}
+{% for item in labels %}<span class="usa-tag {{ page.tag-style }} {{ include.style }}">{{ item }}</span>{% endfor %}
