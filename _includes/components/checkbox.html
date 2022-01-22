@@ -1,0 +1,11 @@
+<!--
+    Documentation: https://github.com/pglevy/rwp-toolkit/wiki/Components#checkbox
+-->
+{% assign labels = include.labels | split: "," %}
+<fieldset class="usa-fieldset">
+    <legend class="usa-legend">{{ include.legend }}</legend>
+    <div class="usa-checkbox">
+        {% for item in labels %}<input class="usa-checkbox__input{% if include.tile %} usa-checkbox__input--tile{% endif %}" id="{{ item | slugify}}" type="checkbox" name="{{ include.legend | slugify }}" value="{{ item | slugify}}" />
+        <label class="usa-checkbox__label" for="{{ item | slugify}}">{{ item }}</label>{% endfor %}
+    </div>
+</fieldset>
