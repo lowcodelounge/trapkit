@@ -5,7 +5,7 @@
 <fieldset class="usa-fieldset">
     <legend class="usa-legend">{{ include.legend }}</legend>
     <div class="usa-radio">
-        {% for item in labels %}<input class="usa-radio__input{% if include.tile %} usa-radio__input--tile{% endif %}" id="{{ item | slugify}}" type="radio" name="{{ include.legend | slugify }}" value="{{ item | slugify}}" />
+        {% for item in labels %}<input class="usa-radio__input{% if include.tile %} usa-radio__input--tile{% endif %}" id="{{ item | slugify}}" type="radio" name="{{ include.legend | slugify }}" value="{{ item }}" />
         <label class="usa-radio__label" for="{{ item | slugify}}">{{ item }}</label>{% endfor %}
     </div>
 </fieldset>
