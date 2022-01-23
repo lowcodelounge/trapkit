@@ -2,7 +2,7 @@
 layout: centered-column
 title: Home
 prose: true
-layout-style: prose width-tablet
+layout-style: prose tablet:width-tablet
 ---
 # {{ site.title }}
 

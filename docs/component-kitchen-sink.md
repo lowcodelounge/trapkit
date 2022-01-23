@@ -1,6 +1,6 @@
 ---
 layout: grid-container
-prose: true
+prose: false
 header: true
 ---
 
