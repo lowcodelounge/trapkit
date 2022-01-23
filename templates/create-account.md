@@ -17,8 +17,23 @@ text-input-style: radius-lg padding-3 border-2px border-base
 <!-- Include an inline link for communication preference. -->
 {% include components/link.html label="Use phone instead of email" link="#" %}
 
+{% include components/radio-buttons.html legend="How excited are you about this form?" labels="Pretty excited 😃,Very excited 🤩,Meh 😐" tile=true %}
+
+{% include components/checkbox.html labels="I have never not read the terms and conditions 🤞" legend="Terms & Conditions" %}
+
 {% include components/icon.html icon="info" size="4" style="text-info-dark float-left margin-right-1" %}
 After creating your account, you'll receive a message with a link to set up your username and password.
 
 <!-- Include a button component as a call-to-action for completing the form. -->
-{% include components/button.html label="Create" link="#" %}
+{% include components/button.html label="Create" link="summary.html" %}
+
+## Debugging
+
+page.title: {{ page.title }}
+
+page.title slug: {{ page.title | slugify }}
+
+data:
+<div id="data"></div>
+
+{% include actions/save-data.html %}
