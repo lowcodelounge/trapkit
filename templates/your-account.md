@@ -19,6 +19,6 @@ text-input-style: radius-lg padding-3 border-2px border-base
 
 ## Excitement level
 
-{% include actions/get-data.html get-this="create-your-account-how-excited-are-you-about-this-form" %}
+{% include actions/get-data.html get-this="create-your-account-how-excited-are-you-about-signing-up" %}
 
 [Take me home]({{ site.baseurl }}/)
