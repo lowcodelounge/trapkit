@@ -5,7 +5,7 @@ header: false
 
 # Data
 
-This is all the data you have saved in the `localStorage` feature of the browser for this site. If you want to can clear all of it and start over.
+This is all the data you have saved in the `localStorage` feature of the browser for this prototype. You can clear all of it and start over.
 
 {% include components/button.html label="Clear data" link="#" %}
 
@@ -13,7 +13,7 @@ This is all the data you have saved in the `localStorage` feature of the browser
 
 <script>
 if (localStorage.length == 0) {
-    document.write('<p>You have not saved any data yet.</p>');
+    document.write('<p>You haven’t saved any data yet. Let’s go… 💪</p>');
 } else {
     document.write('<table id="list-of-data" class="usa-table">');
     document.write('<thead><tr><th scope="col">Key</th><th scope="col">Value</th></tr></thead>');
