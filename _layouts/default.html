@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
   </head>
 
-  <body>
+  <body class="{{ page.body-style }}">
     {% if page.header %}{% include components/basic-header.html %}{% endif %}
     <main id="main-content">
       <div class="{% if page.prose %} usa-prose padding-top-4{% endif %}">
         {{ content }}
       </div>
     </main>
+    {% if page.save-data %}{% include actions/save-data.html %}{% endif %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.13.0/js/uswds.min.js" integrity="sha512-1Niw6TYjCyuUjgapoQ7uaGTQ6IoIvnAhXK3m6/IdDE79SC3Bs3Rjr7gIfj+WPUtabJPIrIc0Mfrs0joIWviF1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
   </body>

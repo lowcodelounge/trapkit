@@ -1,0 +1,8 @@
+<script>
+    var data = window.localStorage.getItem('{{ include.get-this }}');
+    {% if include.put-it-here %}
+    $('#{{ include.put-it-here}}').val(data);
+    {% else %}
+    document.write('<p>' + data + '</p>');
+    {% endif %}
+</script>

@@ -1,0 +1,8 @@
+<script>
+    var page = "{{ page.title | slugify }}";
+    $('input').on('blur', function(){
+        var name = $(this).attr('name');
+        var data = $(this).val();
+        window.localStorage.setItem(page + '-' + name, data);
+    });    
+</script>
