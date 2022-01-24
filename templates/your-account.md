@@ -10,12 +10,15 @@ text-input-style: radius-lg padding-3 border-2px border-base
 # Your account
 {: .margin-top-0}
 
-## Full name
-{% include actions/get-data.html get-this="create-your-account-full-name" %}
+<!-- Text input component for name. -->
+{% include components/text-input.html label="Full name" type="text" %}
 
-## Email address
+{% include actions/get-data.html get-this="create-your-account-full-name" put-it-here="full-name" %}
 
-{% include actions/get-data.html get-this="create-your-account-email-address" %}
+<!-- Text input component for email. -->
+{% include components/text-input.html label="Email address" type="email" %}
+
+{% include actions/get-data.html get-this="create-your-account-email-address" put-it-here="email-address" %}
 
 ## Excitement level
 
