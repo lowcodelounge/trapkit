@@ -5,6 +5,7 @@ body-style: bg-base-lightest
 layout-style: tablet:width-tablet bg-white margin-top-6 padding-5 radius-lg shadow-3
 button-style: usa-button--big bg-primary-vivid hover:bg-primary-darker
 text-input-style: radius-lg padding-3 border-2px border-base
+save-data: yas
 ---
 
 # Create your account
@@ -31,6 +32,3 @@ After creating your account, you'll receive a message with a link to set up your
 
 <!-- Include a button component as a call-to-action for completing the form. -->
 {% include components/button.html label="Create" link="your-account.html" %}
-
-<!-- Include action to save data from all inputs as it's entered. -->
-{% include actions/save-data.html %}
