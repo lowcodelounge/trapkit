@@ -8,7 +8,7 @@ description: A rapid web prototyping template to quickly build working prototype
 
 # Enable for live hosting on GitHub Pages
 # This should match the name of your GitHub repository, along with a leading forward slash (/).
-baseurl: /rwp-toolkit
+baseurl: /
 
 ### RECOMMENDED SETTINGS ###
 
