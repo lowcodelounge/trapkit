@@ -2,7 +2,7 @@ image:
   file: Dockerfile
 tasks:
   - before: bundle install
-    command: bundle exec jekyll serve
+    command: bundle exec jekyll serve -H 0.0.0.0
 ports:
   - port: 4000
     onOpen: notify
