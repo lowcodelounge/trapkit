@@ -2,7 +2,7 @@ image:
   file: Dockerfile
 tasks:
   - before: bundle install
-    command: bundle exec jekyll serve -H 0.0.0.0 --open-url
+    command: bundle exec jekyll serve
 ports:
   - port: 4000
-    onOpen: ignore
+    onOpen: open-browser
