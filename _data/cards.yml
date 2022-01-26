@@ -1,0 +1,15 @@
+- heading: Accordion
+  body: "An accordion is a list of headers that hide or reveal additional content when selected."
+  link: https://designsystem.digital.gov/components/accordion/
+  image-url: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
+  image-text: "Fractal art with USWDS logo"
+- heading: Alert
+  body: "An alert keeps users informed of important and sometimes time-sensitive changes."
+  link: https://designsystem.digital.gov/components/alert/
+  image-url: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
+  image-text: "Fractal art with USWDS logo"
+- heading: Banner
+  body: "The banner identifies official websites of government organizations in the United States. It also helps visitors understand how to tell that a website is both official and secure."
+  link: https://designsystem.digital.gov/components/banner/
+  image-url: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
+  image-text: "Fractal art with USWDS logo"
