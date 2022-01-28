@@ -1,0 +1,16 @@
+- heading: Accordion
+  body: "An accordion is a list of headers that hide or reveal additional content when selected."
+  link: https://designsystem.digital.gov/components/accordion/
+  image-url: "../assets/img/accordion.jpg"
+  image-text: "Close-up shot of an ornate accordion musical instrument held by someone"
+  image-class: margin-top-neg-10
+- heading: Alert
+  body: "An alert keeps users informed of important and sometimes time-sensitive changes."
+  link: https://designsystem.digital.gov/components/alert/
+  image-url: "../assets/img/alert.jpg"
+  image-text: "Police vehicle siren"
+- heading: Banner
+  body: "The banner identifies official websites of government organizations in the United States. It also helps visitors understand how to tell that a website is both official and secure."
+  link: https://designsystem.digital.gov/components/banner/
+  image-url: "../assets/img/banner.jpg"
+  image-text: "Medium shot of numerous multi-colored, triangular-shaped flags blowing in the wind"
