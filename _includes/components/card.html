@@ -1,5 +1,8 @@
+<!--
+    Documentation: https://github.com/pglevy/rwp-toolkit/wiki/Components#card
+-->
 <ul class="usa-card-group">
-    {% for item in site.data.cards %}
+    {% for item in include.values %}
     <li class="{{ include.width }} usa-card">
         <div class="usa-card__container">
             <header class="usa-card__header">
