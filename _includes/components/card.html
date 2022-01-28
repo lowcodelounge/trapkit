@@ -5,10 +5,10 @@
             <header class="usa-card__header">
                 <h2 class="usa-card__heading">{{ item.heading }}</h2>
             </header>
-            {% if item.image-text %}
+            {% if item.image-url and item.image-text %}
             <div class="usa-card__media">
-                <div class="usa-card__img">
-                  <img src="{{ item.image-url}}" alt="{{ item.image-text }}" />
+                <div class="usa-card__img minh-card maxh-card bg-primary-light">
+                  <img src="{{ item.image-url}}" alt="{{ item.image-text }}" class="{{ item.image-class }}" />
                 </div>
             </div>
             {% endif %}
