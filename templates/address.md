@@ -5,7 +5,8 @@ prose: false
 layout-style: tablet:width-mobile-lg
 button-style: bg-primary-vivid hover:bg-primary-darker
 ---
-# Subscribe to our mailing list
+
+# Add a new address
 
 {% include components/text-input.html label="Name" type="text" %}
 
@@ -17,4 +18,4 @@ button-style: bg-primary-vivid hover:bg-primary-darker
 
 {% include components/dropdown.html label="Country" values="Canada,Cuba,Iceland,Ireland,Mexico,United Kingdom,United States" style="width-half" %}
 
-{% include components/button.html label="Continue" link="#" %}
+{% include components/button.html label="Save" link="#" %}
