@@ -1,0 +1,21 @@
+<!--
+    Documentation: https://github.com/pglevy/rwp-toolkit/wiki/Components#side-navigation
+-->
+<nav aria-label="Secondary navigation">
+    <ul class="usa-sidenav">
+        {% for item in include.values %}
+        <li class="usa-sidenav__item">
+            <a href="{{ item.url }}"{% if page.sidenav-parent == item.title %} class="usa-current"{% endif %}>{{ item.title }}</a>
+            {% if item.children %}
+            {% for entry in item.children %}
+            <ul class="usa-sidenav__sublist">
+                <li class="usa-sidenav__item">
+                    <a href="{{ entry.url }}"{% if page.sidenav-child == entry.title %} class="usa-current"{% endif %}>{{ entry.title }}</a>
+                </li>
+            </ul>
+            {% endfor %}
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
