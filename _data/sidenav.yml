@@ -1,0 +1,35 @@
+- title: New England
+  url: https://en.wikipedia.org/wiki/New_England_Colonies
+  children:
+    - title: Massachusetts Bay
+      url: https://en.wikipedia.org/wiki/Province_of_Massachusetts_Bay
+    - title: New Hampshire
+      url: https://en.wikipedia.org/wiki/Province_of_New_Hampshire
+    - title: Connecticut
+      url: https://en.wikipedia.org/wiki/Connecticut_Colony
+    - title: Rhode Island
+      url: https://en.wikipedia.org/wiki/Colony_of_Rhode_Island_and_Providence_Plantations
+- title: Middle
+  url: https://en.wikipedia.org/wiki/Middle_Colonies
+  children:
+    - title: Delaware
+      url: https://en.wikipedia.org/wiki/Delaware_Colony
+    - title: New York
+      url: https://en.wikipedia.org/wiki/Province_of_New_York
+    - title: New Jersey
+      url: https://en.wikipedia.org/wiki/Province_of_New_Jersey
+    - title: Pennsylvania
+      url: https://en.wikipedia.org/wiki/Province_of_Pennsylvania
+- title: Southern
+  url: https://en.wikipedia.org/wiki/Southern_Colonies
+  children:
+    - title: Virginia
+      url: https://en.wikipedia.org/wiki/Colony_of_Virginia
+    - title: Maryland
+      url: https://en.wikipedia.org/wiki/Province_of_Maryland
+    - title: North Carolina
+      url: https://en.wikipedia.org/wiki/Province_of_North_Carolina
+    - title: South Carolina
+      url: https://en.wikipedia.org/wiki/Province_of_South_Carolina
+    - title: Georgia
+      url: https://en.wikipedia.org/wiki/Province_of_Georgia
