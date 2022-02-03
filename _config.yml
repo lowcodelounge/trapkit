@@ -1,14 +1,14 @@
 ### REQUIRED SETTINGS ###
 
 # Set a plain language title for the site.
-title: RWP Toolkit
+title: Trap Kit
 
 # Write a short description for the site. This is used for "meta description."
-description: A rapid web prototyping template to quickly build working prototypes in the browser using real content without messing with code
+description: No-cost, no-catch rapid web prototyping for no-coders
 
 # Enable for live hosting on GitHub Pages
 # This should match the name of your GitHub repository, along with a leading forward slash (/).
-baseurl: /rwp-toolkit
+baseurl: /trapkit
 
 ### RECOMMENDED SETTINGS ###
 
