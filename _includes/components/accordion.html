@@ -1,0 +1,20 @@
+<!--
+    Documentation: https://github.com/pglevy/rwp-toolkit/wiki/Components#accordion
+-->
+<div class="usa-accordion usa-accordion--bordered">
+    {% for item in include.collection %}
+    <div class="usa-accordion__heading">
+      <button
+        class="usa-accordion__button"
+        aria-expanded="false"
+        aria-controls="{{ item.title | slugify }}">
+        {{ item.title }}
+      </button>
+    </div>
+    <div id="{{ item.title | slugify }}" class="usa-accordion__content{% if page.prose %} usa-prose{% endif %}">
+      <p>
+        {{ item.content }}
+      </p>
+    </div>
+    {% endfor %}
+</div>

@@ -21,3 +21,12 @@ github: [metadata]
 
 # Remove generation of additional style.css
 theme: null
+
+# Tell Jekyll where you're going to keep your collection content files.
+collections_dir: collections
+
+# Define collections for use with rich text-based components.
+# For each collection, create a folder with that name, PRECEDED BY AN UNDERSCORE (e.g., _borrowing and _charters).
+collections:
+  - borrowing
+  - charters
