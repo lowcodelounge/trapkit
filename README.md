@@ -1,20 +1,8 @@
-# Make rapid web prototypes — responsive as code, easy as paper — and get real feedback real fast.
+# Trap Kit | The no-cost, no-catch rapid web prototyping toolkit for no-coders to get real feedback real fast.
 
-Use **Trap Kit** as a template to build working prototypes in the browser with the human-friendliest tech stack around: [Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for content, [USWDS](https://designsystem.digital.gov/) for components, and [GitHub Pages](https://pages.github.com/) for hosting. All free and open-source.
+**Trap Kit** is a “fauxcode” toolkit of components, layouts, and templates to build working prototypes in the browser with the human-friendliest tech stack around: [Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for content, [USWDS](https://designsystem.digital.gov/) for components, and [GitHub Pages](https://pages.github.com/) for hosting. All free and open-source.
 
-## 🤩 What people are saying
-
-> **We used our new prototyping skills to wow the client with the possibilities of what could be another awesome addition to the site.**
->
->— A.B., Project Manager
-
-> **Still amazed at the job the design team was able to do in such a little amount of time!**
->
->— D.O., Developer
-
-> **This actually brought a fun solution I will try to build on in my free time.**
->
->— J.F., Development Lead
+**View the public-facing site at [trapkit.co](https://trapkit.co).**
 
 <a href="https://github.com/pglevy/rwp-toolkit/generate"><img src="assets/img/call-to-action.png" alt="Start a prototype from this template" width="320" height="48"></a>
 
@@ -26,17 +14,20 @@ This repository template provides everything you need to get started with rapid 
 1. Add [USWDS components](https://designsystem.digital.gov/components/overview/) to your pages with a line or two of text.
 1. Go live with GitHub Pages and get feedback.
 
-More details below…
+## Getting started
 
-### 🕺 Get down with Markdown and go content-first
-The most important thing people interact with on your page is the content. This is why they're there — either to get information or get something done. So let go of lorem ipsum and start testing your content first. Markdown makes it easy to format your text without messy HTML tags.
+> **There are instructional videos forthcoming, but for now, here are the high-level instructions for how to starting using it.**
 
-### 👋 Goodbye hotspot. Hello hyperlink.
-Hotspot-based prototype tools are nice, but there's nothing like interacting with a real website on a real device for seeing how users actually respond to your hypothesis. And as easy as it is to build in the browser, you'll spend less time futzing around in Figma and more time validating your ideas.
+If you want to learn more about how it works, [check out the documentation in the wiki](https://github.com/pglevy/trapkit/wiki).
 
-### ♼ Stop annotating and start iterating.
-Working with an accessibility-aware, mobile-friendly design system allows you to focus more on collaboration with developers and less on communicating design details. The U.S. Web Design System includes a robust set of well-documented components that work out of the box. Even if you're already using a design system, this approach covers the basics so you can concentrate on what makes your design unique.
+If you want to jump right in:
+
+1. Create a copy of this repo template. (Keep the name `trapkit` to start to keep hosting simple.)
+1. Turn on [GitHub Pages](https://pages.github.com/) in the repo Settings.
+1. Run the site locally using Gitpod by pasting this in front of your repo URL and loding that in your browser: `https://gitpod.io/#`.
+    - Alternatively, if you have Jekyll installed, you can run it directly on your machine.
+1. Check out the templates and the component kitchen sink and start making some content pages.
+
+If you need any help, [reach out on Twitter](https://twitter.com/pglevy).
 
 <a href="https://github.com/pglevy/rwp-toolkit/generate"><img src="assets/img/call-to-action.png" alt="Start a prototype from this template" width="320" height="48"></a>
-
-[See the wiki for more details and documentation](https://github.com/pglevy/rwp-toolkit/wiki)
