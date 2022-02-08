@@ -15,6 +15,12 @@ These are all the available components on one page. To include the component on 
 
 `{% raw %}{% include components/accordion.html collection=site.charters %}{% endraw %}`
 
+## Alert
+
+{% include components/alert.html heading="Warning" text="This form may cause unusual levels of excitement." type="warning" %}
+
+`{% raw %}{% include components/alert.html heading="Warning" text="This form may cause unusual levels of excitement." type="warning" %}{% endraw %}`
+
 ## Breadcrumb
 
 {% include components/breadcrumb.html %}
