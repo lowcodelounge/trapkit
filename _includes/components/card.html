@@ -20,9 +20,11 @@
                     {{ item.body }}
                 </p>
             </div>
+            {% if item.link %}
             <div class="usa-card__footer">
                 <a href="{{ item.link }}" class="usa-button">View {{ item.heading }}</a>
             </div>
+            {% endif %}
         </div>
     </li>
     {% endfor %}
