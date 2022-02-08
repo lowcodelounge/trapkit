@@ -1,18 +1,49 @@
 ---
-layout: grid-container
+layout: sidebar
 prose: false
 header: true
+sidebar: component-nav.md
 ---
 
 # Component kitchen sink
 
 These are all the available components on one page. To include the component on a Markdown content page, copy and paste the line of text. This content file is located here: [`docs/component-kitchen-sink.md`](https://github.com/pglevy/rwp-toolkit/blob/main/docs/component-kitchen-sink.md).
 
+## Accordion
+
+{% include components/accordion.html collection=site.charters %}
+
+`{% raw %}{% include components/accordion.html collection=site.charters %}{% endraw %}`
+
+## Breadcrumb
+
+{% include components/breadcrumb.html %}
+
+`{% raw %}{% include components/breadcrumb.html %}{% endraw %}`
+
+Front matter:
+
+```
+---
+breadcrumbs:
+- name: Framework
+  url: framework/
+- name: Molecules
+  url: framework/molecules/
+---
+```
+
 ## Button
 
 {% include components/button.html label="Create" link="index.html" %}
 
 `{% raw %}{% include components/button.html label="Create" link="index.html" %}{% endraw %}`
+
+## Card
+
+{% include components/card.html width="tablet:grid-col-4" values=site.data.cards %}
+
+`{% raw %}{% include components/card.html width="tablet:grid-col-4" values=site.data.cards %}{% endraw %}`
 
 ## Checkbox
 
@@ -57,6 +88,16 @@ Content page settings include: `prose: true`.
 {% include components/radio-buttons.html legend="I am legend" labels="Yes,No,Maybe so" %}
 
 `{% raw %}{% include components/radio-buttons.html legend="I am legend" labels="Yes,No,Maybe so" %}{% endraw %}`
+
+## Side navigation
+
+```
+---
+sidebar: side-nav.md
+sidenav-parent: Current Parent
+sidenav-child: Current Child
+---
+```
 
 ## Tag
 

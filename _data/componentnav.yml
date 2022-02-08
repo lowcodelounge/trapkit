@@ -1,0 +1,32 @@
+- title: Accordion
+  url: "#accordion"
+- title: Breadcrumb
+  url: "#breadcrumb"
+- title: Button
+  url: "#button"
+- title: Card
+  url: "#card"
+- title: Checkbox
+  url: "#checkbox"
+- title: Combo box
+  url: "#combo-box"
+- title: Dropdown
+  url: "#dropdown"
+- title: Header
+  url: "#header"
+- title: Link
+  url: "#link"
+- title: Icon
+  url: "#icon"
+- title: Prose
+  url: "#prose"
+- title: Radio buttons
+  url: "#radio-buttons"
+- title: Side navigation
+  url: "#side-navigation"
+- title: Tag
+  url: "#tag"
+- title: Text input
+  url: "#text-input"
+- title: Tooltip
+  url: "#tooltip"

@@ -4,3 +4,10 @@
 .width-half {
     width: 50% !important;
 }
+
+code {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: .25rem .5rem .25rem .5rem;
+    border-radius: .25rem;
+}
