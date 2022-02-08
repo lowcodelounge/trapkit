@@ -29,11 +29,6 @@ This is a first draft of some principles to help differentiate this project:
 
 - **Accessibility always**: Think about this and test for it at the beginning so it's not forgotten at the end.
 
-- Prototypes, not production
-- All content in content files
-- As little syntax and settings as possible
-- Flexibility without complexity
-
 ### Ways to contribute
 
 Trap Kit includes a number of elements that could be added to or improved:
