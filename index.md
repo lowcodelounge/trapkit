@@ -11,7 +11,7 @@ body-style: bg-base-lightest line-height-sans-4
 ![workspace](assets/img/workspace.jpg)
 {: .float-right .maxw-mobile-lg .tablet:margin-left-3 .border-05 .border-base-lighter .radius-md .line-height-none}
 
-**Trap Kit** is a “fauxcode” toolkit of components, layouts, and templates to build working prototypes in the browser with the human-friendliest tech stack around: [Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for content, [USWDS](https://designsystem.digital.gov/) for components, and [GitHub Pages](https://pages.github.com/) for hosting. All free and open-source.
+**Trap Kit** is a “faux-code” toolkit of components, layouts, and templates to build working prototypes in the browser with the human-friendliest tech stack around: [Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for content, [USWDS](https://designsystem.digital.gov/) for components, and [GitHub Pages](https://pages.github.com/) for hosting. All free and open-source.
 {: .usa-intro}
 
 {% include components/button.html link="https://github.com/pglevy/trapkit/generate" label="Start prototyping" style="bg-primary-vivid usa-button--big display-inline-block" %}
