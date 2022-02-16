@@ -14,4 +14,13 @@ code {
     background-color: #f0f0f0;
     padding: .25rem .5rem .25rem .5rem;
     border-radius: .25rem;
+    max-width: 100%;
+}
+
+.bg-light-yellow {
+    background-color: #F1E4D4 !important;
+}
+
+details {
+    cursor: pointer;
 }
