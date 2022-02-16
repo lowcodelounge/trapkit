@@ -1,0 +1,28 @@
+- title: Block elements
+  url: "#block-elements"
+  children:
+  - title: Headings
+    url: "#headings"
+  - title: Paragraphs and Line Breaks
+    url: "#paragraphs-and-line-breaks"
+  - title: Lists
+    url: "#lists"
+  - title: Tables
+    url: "#tables"
+  - title: Images
+    url: "#images"
+  - title: Blockquote
+    url: "#blockquote"
+  - title: Preformatted / Code
+    url: "#preformatted--code"
+  - title: Horizontal Rule
+    url: "#horizontal-rule"
+- title: Inline elements
+  url: "#inline-elements"
+  children:
+  - title: Link
+    url: "#link"
+  - title: Emphasis
+    url: "#emphasis"
+  - title: Strikethrough
+    url: "#strikethrough"

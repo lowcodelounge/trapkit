@@ -20,3 +20,7 @@ code {
 .bg-light-yellow {
     background-color: #F1E4D4 !important;
 }
+
+details {
+    cursor: pointer;
+}
