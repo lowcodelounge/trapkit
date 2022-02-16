@@ -1,0 +1,1 @@
+{% include components/side-navigation.html values=site.data.contentnav style="border-x-1px border-base-lighter margin-top-3" %}
