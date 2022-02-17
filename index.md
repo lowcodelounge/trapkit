@@ -8,7 +8,7 @@ body-style: bg-base-lightest line-height-sans-4
 # No-cost, no-catch rapid web prototyping for no-coders to get real feedback real fast.
 {: .font-heading-2xl}
 
-![illustration of a workspace with a laptop, a checklist, an overhead lamp, and a smiling cup of coffee](assets/img/workspace.jpg)
+![illustration of a workspace with a laptop, a checklist, an overhead lamp, and a smiling cup of coffee]({{ site.url }}/assets/img/workspace.jpg)
 {: .float-right .maxw-mobile-lg .tablet:margin-left-3 .border-05 .border-base-lighter .radius-md .bg-light-yellow}
 
 **Trap Kit** is a “faux-code” toolkit of components, layouts, and templates to build working prototypes in the browser with the human-friendliest tech stack around: [Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for content, [USWDS](https://designsystem.digital.gov/) for components, and [GitHub Pages](https://pages.github.com/) for hosting. All free and open-source.

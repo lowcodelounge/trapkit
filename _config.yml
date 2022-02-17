@@ -8,7 +8,11 @@ description: No-cost, no-catch rapid web prototyping for no-coders
 
 # Enable for live hosting on GitHub Pages
 # This should match the name of your GitHub repository, along with a leading forward slash (/).
-baseurl: /trapkit
+# baseurl: /trapkit
+
+# Enable for live hosting on GitHub Pages with a custom domain
+# This should match the full domain name that loads in your browser, along with a trailing forward slash (/).
+url: https://trapkit.co/
 
 ### RECOMMENDED SETTINGS ###
 
