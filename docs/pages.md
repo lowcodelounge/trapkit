@@ -9,6 +9,6 @@ These are all the pages in this site:
 
 {% for item in site.pages %}
 
-- [{{ item.title }}]({{ site.url }}{{ item.url }}){: .usa-link}
+- [{{ item.url }}]({{ site.url }}{{ item.url }}){: .usa-link}
 
 {% endfor %}
