@@ -14,16 +14,16 @@ body-style: bg-base-lightest line-height-sans-4
 **Trap Kit** is a “faux-code” toolkit of components, layouts, and templates to build working prototypes in the browser with the human-friendliest tech stack around: [Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for content, [USWDS](https://designsystem.digital.gov/) for components, and [GitHub Pages](https://pages.github.com/) for hosting. All free and open-source.
 {: .usa-intro}
 
-{% include components/button.html link="https://github.com/pglevy/trapkit#readme" label="Start prototyping" style="bg-primary-vivid usa-button--big display-inline-block" %}
+{% include components/button.html link="https://github.com/pglevy/trapkit#readme" label="Start prototyping" number="1" style="bg-primary-vivid usa-button--big display-inline-block" %}
 
-{% include components/button.html link="https://github.com/pglevy/trapkit/wiki" label="Check out the docs" style="usa-button--outline display-inline-block" %}
+{% include components/button.html link="https://github.com/pglevy/trapkit/wiki" label="Check out the docs" number="1" style="usa-button--outline display-inline-block" %}
 
 ## 🤩 What people are saying
 {: .font-body-xl .border-top .border-base-light .padding-top-4 .margin-top-4}
 
 {% include components/card.html values=site.data.quotes width="tablet:grid-col-4" %}
 
-{% include components/button.html link="https://github.com/pglevy/trapkit#readme" label="Start prototyping" style="bg-primary-vivid margin-bottom-3" %} {% include components/button.html link="https://github.com/pglevy/trapkit/wiki" label="Check out the docs" style="usa-button--outline" %}
+{% include components/button.html link="https://github.com/pglevy/trapkit#readme" label="Start prototyping" number="2" style="bg-primary-vivid margin-bottom-3" %} {% include components/button.html link="https://github.com/pglevy/trapkit/wiki" label="Check out the docs" number="2" style="usa-button--outline" %}
 
 ## 🏗 How it works
 {: .font-body-xl}
@@ -51,7 +51,7 @@ Hotspot-based prototype tools are nice, but there's nothing like interacting wit
 Working with an accessibility-aware, mobile-friendly design system allows you to focus more on collaboration with developers and less on communicating design details. The U.S. Web Design System includes a robust set of well-documented components that work out of the box. Even if you're already using a design system, this approach covers the basics so you can concentrate on what makes your design unique.
 {: .font-body-md .measure-5}
 
-{% include components/button.html link="https://github.com/pglevy/trapkit#readme" label="Start prototyping" style="bg-primary-vivid margin-bottom-3" %} {% include components/button.html link="https://github.com/pglevy/trapkit/wiki" label="Check out the docs" style="usa-button--outline" %}
+{% include components/button.html link="https://github.com/pglevy/trapkit#readme" label="Start prototyping" number="3" style="bg-primary-vivid margin-bottom-3" %} {% include components/button.html link="https://github.com/pglevy/trapkit/wiki" label="Check out the docs" number="3" style="usa-button--outline" %}
 
 Not ready to jump in? You can always [follow me on Twitter](https://twitter.com/pglevy){: .text-primary-vivid} to stay in the loop or [subscribe to my workshop newsletter](https://tinyletter.com/rwp-workshop){: .text-primary-vivid}.
 {: .font-body-md .measure-5}
