@@ -153,12 +153,14 @@ Note the only default styling of the blockquote element is left margin spacing, 
 
 ### Preformatted / Code
 
-```
-<button class="usa-button">Default</button>
-```
+    ```
+    <button class="usa-button">Default</button>
+    ```
 {: .padding-2 .bg-base-lightest .overflow-auto}
 
 How preformatted/code blocks look rendered as HTML 👆
+
+For multiple-line preformatted content (or code), you can use three "backticks," as shown above. For single-line content, you can simply put a tab in front of the content.
 
 ### Horizontal Rule
 
