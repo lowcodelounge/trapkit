@@ -56,7 +56,7 @@ Working with an accessibility-aware, mobile-friendly design system allows you to
 Not ready to jump in? You can always [follow me on Twitter](https://twitter.com/pglevy){: .text-primary-vivid} to stay in the loop or [subscribe to my workshop newsletter](https://tinyletter.com/rwp-workshop){: .text-primary-vivid}.
 {: .font-body-md .measure-5}
 
-Made by [@pglevy](https://twitter.com/pglevy){: .text-primary-vivid} with [Trap Kit](https://pglevy.github.io/trapkit/){: .text-primary-vivid}—no-cost, no-catch rapid web prototyping for no-coders.
+Made by [@pglevy](https://twitter.com/pglevy){: .text-primary-vivid} with [Trap Kit](https://pglevy.github.io/trapkit/){: .text-primary-vivid}—no-cost, no-catch rapid web prototyping for no-coders. [Get on GitHub](https://github.com/pglevy/trapkit#readme){: .text-primary-vivid}
 {: .border-top .border-base-light .padding-top-4 .margin-top-4}
 
 Illustration by [Illustrations.co](https://illlustrations.co/){: .text-primary-vivid}.
