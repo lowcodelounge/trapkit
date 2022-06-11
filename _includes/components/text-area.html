@@ -1,0 +1,9 @@
+<!--
+    Documentation: https://github.com/pglevy/rwp-toolkit/wiki/Components#text-area
+-->
+<label class="usa-label {{ include.label-style }}" for="{{ include.label | slugify }}">{{ include.label }}</label>
+<textarea
+  class="usa-textarea {{ page.text-input-style }} {{ include.style }}"
+  id="{{ include.label | slugify }}"
+  name="{{ include.label | slugify }}"
+></textarea>

@@ -18,4 +18,6 @@ button-style: bg-primary-vivid hover:bg-primary-darker
 
 {% include components/dropdown.html label="Country" values="Canada,Cuba,Iceland,Ireland,Mexico,United Kingdom,United States" style="width-half" %}
 
+{% include components/text-area.html label="Shipping notes" %}
+
 {% include components/button.html label="Save" link="#" %}
