@@ -1,7 +1,7 @@
 <!--
     Documentation: https://github.com/pglevy/rwp-toolkit/wiki/Components#checkbox
 -->
-{% assign labels = include.labels | split: "," %}
+{% assign labels = include.labels | split: "|" %}
 <fieldset class="usa-fieldset">
     <legend class="usa-legend">{{ include.legend }}</legend>
     <div class="usa-checkbox">
