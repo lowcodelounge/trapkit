@@ -1,8 +1,18 @@
 <script>
     var page = "{{ page.title | slugify }}";
-    $('input').on('blur', function(){
+    $('input:not([type=radio])').on('blur', function(){
         var name = $(this).attr('name');
         var data = $(this).val();
         window.localStorage.setItem(page + '-' + name, data);
-    });    
+    });
+    $("input:radio").on('change', function(){
+        // save the value of the selected radio button
+        var name = $(this).attr('name');
+        var data = $(this).val();
+        window.localStorage.setItem(page + '-' + name, data);
+        // save the index of the selected radio button
+        var radioButtons = $("input:radio[name=" + name + "]");
+        var selectedIndex = radioButtons.index(radioButtons.filter(':checked'));
+        window.localStorage.setItem(page + '-' + name + '-index', selectedIndex);
+    });
 </script>
