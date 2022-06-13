@@ -111,6 +111,12 @@ sidenav-child: Current Child
 
 `{% raw %}{% include components/tag.html labels="one,two,three" %}{% endraw %}`
 
+## Text area
+
+{% include components/text-area.html label="The Label" %}
+
+`{% raw %}{% include components/text-area.html label="The Label" %}{% endraw %}`
+
 ## Text input
 
 {% include components/text-input.html label="The Label" type="text" %}

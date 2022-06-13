@@ -28,6 +28,8 @@
   url: "#side-navigation"
 - title: Tag
   url: "#tag"
+- title: Text area
+  url: "#text-area"
 - title: Text input
   url: "#text-input"
 - title: Tooltip
