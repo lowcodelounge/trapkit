@@ -107,9 +107,9 @@ sidenav-child: Current Child
 
 ## Tag
 
-{% include components/tag.html labels="one,two,three" %}
+{% include components/tag.html labels="one|two|three" %}
 
-`{% raw %}{% include components/tag.html labels="one,two,three" %}{% endraw %}`
+`{% raw %}{% include components/tag.html labels="one|two|three" %}{% endraw %}`
 
 ## Text area
 
