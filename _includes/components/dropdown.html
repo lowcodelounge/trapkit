@@ -1,7 +1,7 @@
 <!--
     Documentation: https://github.com/pglevy/rwp-toolkit/wiki/Components#dropdown
 -->
-{% assign values = include.values | split: "," %}
+{% assign values = include.values | split: "|" %}
 <label class="usa-label" for="{{ include.label | slugify }}">{{ include.label }}</label>
 <select class="usa-select {{ page.dropdown-style }} {{ include.style }}" name="{{ include.label | slugify }}" id="{{ include.label | slugify }}">
     <option value>— Select —</option>

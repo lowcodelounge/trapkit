@@ -65,9 +65,9 @@ breadcrumbs:
 
 ## Dropdown
 
-{% include components/dropdown.html label="Country" values="Canada,Cuba,Iceland,Ireland,Mexico,United Kingdom,United States" %}
+{% include components/dropdown.html label="Country" values="Canada|Cuba|Iceland|Ireland|Mexico|United Kingdom|United States" %}
 
-`{% raw %}{% include components/dropdown.html label="Country" values="Canada,Cuba,Iceland,Ireland,Mexico,United Kingdom,United States" %}{% endraw %}`
+`{% raw %}{% include components/dropdown.html label="Country" values="Canada|Cuba|Iceland|Ireland|Mexico|United Kingdom|United States" %}{% endraw %}`
 
 ## Header
 
@@ -91,9 +91,9 @@ Content page settings include: `prose: true`.
 
 ## Radio buttons
 
-{% include components/radio-buttons.html legend="I am legend" labels="Yes,No,Maybe so" %}
+{% include components/radio-buttons.html legend="I am legend" labels="Yes|No|Maybe so" %}
 
-`{% raw %}{% include components/radio-buttons.html legend="I am legend" labels="Yes,No,Maybe so" %}{% endraw %}`
+`{% raw %}{% include components/radio-buttons.html legend="I am legend" labels="Yes|No|Maybe so" %}{% endraw %}`
 
 ## Side navigation
 
@@ -107,9 +107,9 @@ sidenav-child: Current Child
 
 ## Tag
 
-{% include components/tag.html labels="one,two,three" %}
+{% include components/tag.html labels="one|two|three" %}
 
-`{% raw %}{% include components/tag.html labels="one,two,three" %}{% endraw %}`
+`{% raw %}{% include components/tag.html labels="one|two|three" %}{% endraw %}`
 
 ## Text area
 
