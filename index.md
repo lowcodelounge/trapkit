@@ -53,10 +53,10 @@ Working with an accessibility-aware, mobile-friendly design system allows you to
 
 {% include components/button.html link="https://github.com/pglevy/trapkit#readme" label="Start prototyping" number="3" style="bg-primary-vivid margin-bottom-3" %} {% include components/button.html link="https://github.com/pglevy/trapkit/wiki" label="Check out the docs" number="3" style="usa-button--outline" %}
 
-Not ready to jump in? You can always [follow me on Twitter](https://twitter.com/pglevy){: .text-primary-vivid} to stay in the loop or [subscribe to my workshop newsletter](https://tinyletter.com/rwp-workshop){: .text-primary-vivid}.
+Not ready to jump in? You can always [connect with me on LinkedIn](https://www.linkedin.com/in/philipglevy/){: .text-primary-vivid}.
 {: .font-body-md .measure-5}
 
-Made by [@pglevy](https://twitter.com/pglevy){: .text-primary-vivid} with [Trap Kit](https://pglevy.github.io/trapkit/){: .text-primary-vivid}—no-cost, no-catch rapid web prototyping for no-coders. [Get on GitHub](https://github.com/pglevy/trapkit#readme){: .text-primary-vivid}
+Made by [@pglevy](https://github.com/pglevy){: .text-primary-vivid} with [Trap Kit](https://pglevy.github.io/trapkit/){: .text-primary-vivid}—no-cost, no-catch rapid web prototyping for no-coders. [Get on GitHub](https://github.com/pglevy/trapkit#readme){: .text-primary-vivid}
 {: .border-top .border-base-light .padding-top-4 .margin-top-4}
 
 Illustration by [Illustrations.co](https://illlustrations.co/){: .text-primary-vivid}.
